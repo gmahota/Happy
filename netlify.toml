@@ -20,7 +20,7 @@
 # Production context: all deploys from the Production branch set in your site's
 # deploy contexts will inherit these settings.
 [context.production]
-  publish = "build/"
+  publish = ""
   command = "yarn build"
   environment = { ACCESS_TOKEN = "REACT_APP_MAPBOX_TOKEN", NODE_VERSION = "8.0.1" }
 
